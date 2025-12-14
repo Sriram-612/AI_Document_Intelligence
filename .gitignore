@@ -1,3 +1,9 @@
 venv/
 __pycache__/
 *.pyc
+
+# Generated images
+data/images/
+data/preprocessed/
+
+
