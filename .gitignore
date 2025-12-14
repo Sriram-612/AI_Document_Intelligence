@@ -6,4 +6,6 @@ __pycache__/
 data/images/
 data/preprocessed/
 
-
+data/ocr_output.txt
+data/
+*.txt
