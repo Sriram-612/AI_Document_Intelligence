@@ -9,3 +9,4 @@ data/preprocessed/
 data/ocr_output.txt
 data/
 *.txt
+data/*.txt
