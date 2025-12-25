@@ -1,9 +1,11 @@
 def filter_tokens(ocr_data,min_conf=40):
     tokens=[]
     n=len(ocr_data["text"])
+    
+
     for i in range(n):
         text=ocr_data["text"][i].strip()
-        conf=ocr_data["conf"][i]
+        conf = int(ocr_data["conf"][i])
         if text and conf>=min_conf:
             tokens.append({
                 "text":text,
